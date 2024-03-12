@@ -2,3 +2,4 @@
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Modyfikcja 1");
+Console.WriteLine("Modyfikcja 2");
