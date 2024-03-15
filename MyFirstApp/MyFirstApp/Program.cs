@@ -5,7 +5,9 @@ Console.WriteLine("Modyfikcja 1");
 Console.WriteLine("Modyfikcja 2");
 Console.WriteLine("Modyfikcja 3");
 
-static double GetAverageOfNumbers(int[] numbers)
+
+static double GetAverageOfNum(int[] numbers)
+
 {
     int value = 0;
     foreach (var number in numbers)
@@ -17,7 +19,7 @@ static double GetAverageOfNumbers(int[] numbers)
 }
 
 int[] numbers = {1, 2, 3, 4};
-double average = GetAverageOfNumbers(numbers);
+double average = GetAverageOfNum(numbers);
 Console.WriteLine(average);
 
 static int GetMax(int[] numbers)
