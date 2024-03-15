@@ -7,13 +7,13 @@ Console.WriteLine("Modyfikcja 3");
 
 static double GetAverageOfTab(int[] numbers)
 {
-    int sum = 0;
+    int value = 0;
     foreach (var number in numbers)
     {
-        sum += number;
+        value += number;
     }
 
-    return (double) sum / numbers.Length;
+    return (double) value / numbers.Length;
 }
 
 int[] numbers = {1, 2, 3, 4};
